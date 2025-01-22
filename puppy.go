@@ -1,7 +1,10 @@
 package puppy
 
-import "github.com/anushastar/dog"
-import fmt
+import (
+	"fmt"
+
+	"github.com/anushastar/dog"
+)
 
 func Bark() string {
 	return "woof!"
